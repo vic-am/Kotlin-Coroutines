@@ -41,7 +41,7 @@ class MainFragment : Fragment() {
             binding.textViewFilmes.text = it[0].titulo
         })
 
-        viewModel.getFilmes()
+        viewModel.getFilmesCoroutines()
     }
 
 }
